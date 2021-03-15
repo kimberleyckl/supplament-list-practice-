@@ -1,0 +1,84 @@
+<!-- All information include pictures adapt from https://www.chemistwarehouse.co.nz/
+This is for only personal practice use, no commercial involved.
+Kimberley Lin -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>保健品價格對照</title>
+    <link href="A.css" rel="stylesheet" style='text/css'>
+    <script src="A.js" defer></script>
+</head>
+
+<body onload=fishOil_clicked()>
+    <!-- MENU -->
+    <div id='menuBar'>
+        <button class="button" id='fishOil_tab' onclick="fishOil_clicked()">魚油</button>
+        <button class="button" id='vitaminC_tab' onclick="vitaminC_clicked()">維他命C</button>
+        <button class="button" id='delivery_tab' onclick="delivery_clicked()">郵寄</button>
+        <!-- <button class="button" id='cart_tab' onclick="cart_clicked()">訂單</button> -->
+        產品與價格來自: https://www.chemistwarehouse.co.nz/
+    </div>
+
+    <!-- PAGES -->
+    <div id='pages'>
+        <div id='fishOil_page'>
+            <div id='fishOil_table'></div>
+        </div>
+
+
+        <div id='vitaminC_page'>
+            <div id='vitaminC_table'></div>
+        </div>
+
+        <div id='delivery_page'>
+            <div id='delivery_table'>
+                <table>
+                    <tr>
+                        <th>方式</th>
+                        <th>速度</th>
+                        <th>郵件追蹤+簽收</th>
+                        <th>價格</th>
+                        <th>丟失賠償</th>
+                        <th>重量</th>
+                    </tr>
+                    <tr>
+                        <td>空運</td>
+                        <td>3~10個工作日</td>
+                        <td> </td>
+                        <td>低</td>
+                        <td>$250~$2000</td>
+                        <td>2kg~20kg</td>
+                    </tr>
+                    <tr>
+                        <td>郵寄</td>
+                        <td>2~6個工作日</td>
+                        <td>&#10004</td>
+                        <td>中</td>
+                        <td>$2000~$5000</td>
+                        <td>0.5kg~30kg</td>
+                    </tr>
+                    <tr>
+                        <td>快遞</td>
+                        <td>1~5個工作日</td>
+                        <td>&#10004</td>
+                        <td>高</td>
+                        <td>$2000~$50000</td>
+                        <td>0.5kg~30kg</td>
+                    </tr>
+                </table>
+            </div>
+            <image src='./images/delivery.JPG' style="width:90%">
+                <div>資料: https://www.nzpost.co.nz/tools/rate-finder/sending-internationally/parcels</div>
+        </div>
+        <div id="cart_page">
+
+        </div>
+    </div>
+
+
+</body>
+
+
+</html>
